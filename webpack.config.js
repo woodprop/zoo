@@ -11,9 +11,22 @@ module.exports = {
         rules: [{
             test:/\.scss$/,
             use: [
-                miniCss.loader,
-                'css-loader',
-                'sass-loader',
+                {
+                    loader: miniCss.loader,
+                },
+                {
+                    loader: 'css-loader',
+                    options: {
+                        url: false,
+                        sourceMap: true,
+                    }
+                },
+                {
+                    loader: 'sass-loader',
+                    options: {
+                        sourceMap: true,
+                    }
+                },
             ]
         }]
     },
@@ -21,5 +34,6 @@ module.exports = {
         new miniCss({
             filename: 'style.css',
         }),
-    ]
+    ],
+    devtool: 'source-map',
 };
