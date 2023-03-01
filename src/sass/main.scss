@@ -1,6 +1,14 @@
 @import "normalize-scss/sass/normalize/import-now";
 
-@import "variables";
-@import "base";
-@import "layout";
-@import "components";
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "base/base";
+@import "layout/wrapper";
+
+
+@import "layout/header";
+@import "components/logo";
+@import "components/menu";
+
+@import "layout/promo";
+@import "components/button";

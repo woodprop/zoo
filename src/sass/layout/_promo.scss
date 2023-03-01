@@ -1,0 +1,37 @@
+.promo {
+  height: 700px;
+  background-image: url('../../../assets/images/giant_panda.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &__text {
+    position: relative;
+    margin-left: auto;
+    margin-top: 84px;
+    width: 500px;
+    @include font(106px, 700, 80px);
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-light;
+    & span {
+      color: $color-highlight;
+    }
+  }
+
+  &__figure {
+    position: absolute;
+    right: 108px;
+    top: 12px;
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background: $gradient-brand;
+  }
+
+  &__button {
+    margin-left: auto;
+    margin-top: 62px;
+    margin-right: 99px;
+  }
+}

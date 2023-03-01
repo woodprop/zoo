@@ -1,0 +1,22 @@
+.button {
+  display: block;
+  width: 298px;
+  height: 54px;
+  background: $gradient-brand;
+  color: $color-light;
+  @include font(16px, 500);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    background: $color-btn-hover;
+  }
+  &:active {
+    background: $color-active;
+  }
+
+  &_rounded {
+    border-radius: 25px;
+  }
+}
