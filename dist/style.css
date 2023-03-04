@@ -569,13 +569,13 @@ a {
 }
 
 .backstage {
-  height: 721px;
   background-image: url("../assets/images/flower_photo1.png");
   background-repeat: no-repeat;
   background-position: right 12px;
 }
 .backstage__data {
   margin-top: 140px;
+  margin-bottom: 178px;
   height: 403px;
   display: flex;
   justify-content: space-between;
@@ -597,6 +597,29 @@ a {
 }
 .backstage__subtitle {
   margin-bottom: 34px;
+}
+
+.animals {
+  background-image: url("../assets/images/palm_photo.png"), url("../assets/images/strelitzia1.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+}
+.animals__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.animals__button {
+  margin: 88px auto 94px;
+  letter-spacing: -0.9px;
+}
+
+.card {
+  width: 366px;
+  min-height: 426px;
+  border-radius: 5px;
+  border: 1px solid #F9804B;
 }
 
 /*# sourceMappingURL=style.css.map*/
