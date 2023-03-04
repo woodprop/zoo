@@ -16,6 +16,14 @@ body {
   font-size: 1.6rem;
 }
 
+h2 {
+  @include font(4.8rem, 400, 58px);
+}
+
 a {
   text-decoration: none;
+}
+
+.subtitle {
+  @include font(24px, 400, 29px);
 }

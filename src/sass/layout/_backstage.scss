@@ -1,0 +1,35 @@
+.backstage {
+  height: 721px;
+  background-image: url("../assets/images/flower_photo1.png");
+  background-repeat: no-repeat;
+  background-position: right 12px;
+
+  &__data {
+    margin-top: 140px;
+    height: 403px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 86px;
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      line-height: 22px;
+      &:last-child {
+        margin-bottom: -2px;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    margin-bottom: 34px;
+  }
+
+}
