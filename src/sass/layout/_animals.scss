@@ -10,6 +10,13 @@
     row-gap: 20px;
   }
 
+  &__card {
+    width: 366px;
+    min-height: 426px;
+    border-radius: 5px;
+    border: 1px solid $color-brand;
+  }
+
   &__button {
     margin: 87px auto 94px;
     letter-spacing: -0.9px;

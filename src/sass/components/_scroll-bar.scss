@@ -1,0 +1,28 @@
+.scroll-bar {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 8px;
+  padding: 1px;
+  border-radius: 4px;
+  background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+  linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: $color-testimonials-card;
+    border-radius: 3px;
+  }
+
+  &__pointer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    border-radius: 4px;
+    background: $color-title-brand;
+  }
+}

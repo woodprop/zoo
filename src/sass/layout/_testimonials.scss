@@ -1,0 +1,59 @@
+.testimonials {
+  padding-top: 140px;
+  padding-bottom: 180px;
+  background-image: url("../assets/images/leaf_photo.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 47px;
+  }
+
+  &__card-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+  }
+
+  &__card {
+    width: 268px;
+    height: 391px;
+    padding: 2px;
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+                linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    border-radius: 20px;
+    &-inner {
+      width: 100%;
+      height: 100%;
+      background: $color-testimonials-card;
+      border-radius: 18px;
+    }
+  }
+
+  .review {
+    padding: 15px 15px 19px;
+    @include font(1.5rem, 300, 1.8rem);
+    &__header {
+      display: flex;
+      margin-bottom: 11px;
+    }
+    &__user {
+      margin-left: 10px;
+    }
+    &__name {
+      @include font(1.6rem, 400);
+    }
+    &__text {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 17;
+      max-height: 310px;
+      overflow: hidden;
+    }
+  }
+
+  &__button {
+    margin-top: 31px;
+  }
+}
