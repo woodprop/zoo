@@ -443,6 +443,12 @@ h2 {
   line-height: 58px;
 }
 
+h3 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 130%;
+}
+
 a {
   text-decoration: none;
 }
@@ -611,7 +617,7 @@ a {
   row-gap: 20px;
 }
 .animals__button {
-  margin: 88px auto 94px;
+  margin: 87px auto 94px;
   letter-spacing: -0.9px;
 }
 
@@ -679,6 +685,76 @@ a {
 }
 .card:hover > .card__hover-data {
   top: 50%;
+}
+
+.feed {
+  padding-top: 69px;
+  padding-bottom: 100px;
+  color: #333B41;
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+.feed__wrapper {
+  padding: 40px 100px 60px;
+  border-radius: 20px;
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+}
+.feed__title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #FE9013;
+}
+.feed__title-second {
+  margin-top: 60px;
+  margin-bottom: 41px;
+  text-align: center;
+}
+.feed__subtitle {
+  margin-bottom: 40px;
+}
+.feed__covid {
+  margin-bottom: 0;
+}
+.feed__cards-block {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 764px;
+}
+.feed__button {
+  margin: 61px auto -1px;
+}
+.feed .feed-card {
+  width: 168px;
+}
+.feed .feed-card__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 168px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #F9804B;
+}
+.feed .feed-card__text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%;
+}
+.feed__arrow {
+  position: absolute;
+  top: 61px;
+  left: 197px;
+  display: block;
+  width: 70px;
+  height: 36px;
+  background: url("../assets/icons/arrow.svg") no-repeat;
+}
+.feed__arrow:last-child {
+  top: 57px;
+  left: 495px;
 }
 
 /*# sourceMappingURL=style.css.map*/

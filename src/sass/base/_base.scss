@@ -20,6 +20,10 @@ h2 {
   @include font(4.8rem, 400, 58px);
 }
 
+h3 {
+  @include font(3.6rem, 400, 130%);
+}
+
 a {
   text-decoration: none;
 }
